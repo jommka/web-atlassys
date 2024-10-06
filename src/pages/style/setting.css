@@ -1,0 +1,363 @@
+main {
+    /*padding: 0 10px 0 10px;*/
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid rgba(230, 239, 245, 1);
+}
+
+.header h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #343C6A;
+    line-height: 33.89px;
+    padding-left: 41px;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-right: 39px;
+    gap: 34px;
+}
+
+.setting-button {
+    background-color: #F5F7FA;
+    border: none;
+    border-radius: 50%;
+    padding: 12px 12px 13px;
+    display: block;
+}
+
+.setting-button img {
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+}
+
+.form-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 255px;
+    height: 50px;
+    margin: 0 auto;
+}
+.form-search input,
+.form-search button {
+    border: none;
+    outline: none;
+    border-radius: 40px;
+}
+
+.form-search input {
+    width: 100%;
+    height: 42px;
+    background: #F5F7FA;
+    padding-left: 65px;
+}
+
+.form-search input::placeholder {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #8BA3CB;
+}
+
+.form-search button {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 14px;
+    left: 27px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    margin: 31px 41px 28px 41px;
+    padding: 34px 47px;
+    border-radius: 25px;
+    height: 647px;
+    background-color: white;
+}
+
+.profile-ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 76px;
+}
+
+.profile-ul li {
+    position: relative;
+    list-style: none;
+}
+
+.profile-ul li a{
+    color: #718EBF;
+    font-size: 16px;
+}
+
+.profile-ul li a:hover,
+.profile-ul li a.active{
+    color: #1814F3;
+}
+
+.profile-ul li a:hover::after,
+.profile-ul li a.active::after{
+    content: "";
+    width: 139%;
+    height: 3px;
+    background: #1814F3;
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    bottom: -12px;
+    left: -15px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-avatar {
+    position: relative;
+    top: 66px;
+    left: -16px;
+    width: 130px;
+    height: 130px;
+}
+
+.profile-button_edit {
+    position: absolute;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 151px;
+    left: 85px;
+    padding: 6px;
+    background-color: #1814F3;
+}
+
+.profile-button_edit img {
+    width: 15px;
+    height: 15px;
+}
+
+.profile-info {
+    display: flex;
+    gap: 30px;
+    padding: 63px 0 0 11px;
+}
+
+.block-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.block-input input {
+    width: 91%;
+    max-width: 418px;
+    /*height: 50px;*/
+    border: 1px solid #DFEAF2;
+    border-radius: 15px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 400;
+    color: #718EBF;
+    padding: 16px 19px;
+}
+
+.block-input input::placeholder {
+    color: #718EBF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 62px;
+    padding-left: 38px;
+    margin-right: -7px;
+    gap: 21px;
+    width: 100%;
+}
+
+.profile-button_save {
+    position: relative;
+    left: 14px;
+    width: 190px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 30px;
+    padding: 16px 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #1814F3;
+}
+
+.header-menu {
+    display: none;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .main-container {
+        gap: 12px;
+    }
+
+    .header {
+        gap: 23px;
+    }
+
+    .header h1 {
+        padding-left: 18px;
+    }
+
+    .form {
+        padding-left: 0;
+        margin-right: 10px;
+    }
+
+    .form-search {
+        width: 216px;
+    }
+
+    .form-search input{
+        padding-left: 50px;
+    }
+
+    .form-search button{
+        left: 13px;
+    }
+
+    .profile-container {
+        padding: 34px 24px;
+        margin: 18px 15px 28px 20px;
+    }
+
+    .profile-avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile-button_edit {
+        top: 135px;
+        left: 56px;
+    }
+
+    .block-input input {
+        width: 76%;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    main {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .header {
+        height: 140px;
+    }
+
+    .header h1 {
+        position: relative;
+        top: -30px;
+        left: 176px;
+    }
+
+    .header-menu {
+        display: block;
+        position: absolute;
+        top: 33px;
+        left: 42px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .setting-button {
+        display: none;
+    }
+
+    .form-search {
+        position: absolute;
+        top: 53px;
+        left: -372px;
+        width: 415px;
+    }
+
+    .main-container {
+        position: relative;
+        top: -27px;
+        left: -3px;
+    }
+
+    .avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile-ul li a {
+        font-size: 13px;
+    }
+
+    .form {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .profile-ul li a.active::after {
+        left: -8px;
+    }
+
+    .profile-avatar {
+        top: 27px;
+        left: 0;
+    }
+
+    .profile-button_edit {
+        top: 127px;
+        left: 95px;
+    }
+
+    .profile-container {
+        height: auto;
+    }
+
+    .profile-button_save {
+        margin-left: 50px;
+    }
+
+}
