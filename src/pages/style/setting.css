@@ -329,6 +329,10 @@ main {
         justify-content: center;
     }
 
+    .profile-ul li{
+        width: 67px;
+    }
+
     .profile-ul li a {
         font-size: 13px;
     }
@@ -339,7 +343,7 @@ main {
     }
 
     .profile-ul li a.active::after {
-        left: -8px;
+        left: -12px;
     }
 
     .profile-avatar {
