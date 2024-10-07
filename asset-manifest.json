@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/web-atlassys/static/css/main.68aae181.css",
+    "main.css": "/web-atlassys/static/css/main.ef3939a2.css",
     "main.js": "/web-atlassys/static/js/main.ea22f39f.js",
     "static/media/avatar.svg": "/web-atlassys/static/media/avatar.9a6f5dcf6379e7ab1bd9f9f70a5e8eb7.svg",
     "static/media/logo.svg": "/web-atlassys/static/media/logo.4d7e57482b44b2ceeac826174a74ee48.svg",
@@ -19,11 +19,11 @@
     "static/media/dashboard.svg": "/web-atlassys/static/media/dashboard.763ca9e8f8ba36baeca82719028ae17d.svg",
     "static/media/search.svg": "/web-atlassys/static/media/search.10a65c66a362761403d5a4bf4324feb3.svg",
     "index.html": "/web-atlassys/index.html",
-    "main.68aae181.css.map": "/web-atlassys/static/css/main.68aae181.css.map",
+    "main.ef3939a2.css.map": "/web-atlassys/static/css/main.ef3939a2.css.map",
     "main.ea22f39f.js.map": "/web-atlassys/static/js/main.ea22f39f.js.map"
   },
   "entrypoints": [
-    "static/css/main.68aae181.css",
+    "static/css/main.ef3939a2.css",
     "static/js/main.ea22f39f.js"
   ]
 }
