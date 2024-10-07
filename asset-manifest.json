@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/web-atlassys/static/css/main.68aae181.css",
+    "main.js": "/web-atlassys/static/js/main.ea22f39f.js",
+    "static/media/avatar.svg": "/web-atlassys/static/media/avatar.9a6f5dcf6379e7ab1bd9f9f70a5e8eb7.svg",
+    "static/media/logo.svg": "/web-atlassys/static/media/logo.4d7e57482b44b2ceeac826174a74ee48.svg",
+    "static/media/settings.svg": "/web-atlassys/static/media/settings.fcdc16945fd07cda4f1401366784608a.svg",
+    "static/media/services.svg": "/web-atlassys/static/media/services.69bca5a51d106c1f9017d4cf47fee287.svg",
+    "static/media/loans.svg": "/web-atlassys/static/media/loans.6fac610de63b0be2c20b8aeb4cf079e4.svg",
+    "static/media/investments.svg": "/web-atlassys/static/media/investments.f19d4cea59a1d1199cf2b5959fd33ad2.svg",
+    "static/media/transactions.svg": "/web-atlassys/static/media/transactions.b2634be2a75ed94d71a3d0304c2c0a14.svg",
+    "static/media/my privileges.svg": "/web-atlassys/static/media/my privileges.3e44648bbb3dc48ea822a20b0305304d.svg",
+    "static/media/notification.svg": "/web-atlassys/static/media/notification.d73b3cc24dc03bdb896d99d52f218cb6.svg",
+    "static/media/accounts.svg": "/web-atlassys/static/media/accounts.76ff890f8dedfa3666e9cc6017aac604.svg",
+    "static/media/credit cards.svg": "/web-atlassys/static/media/credit cards.d5360a119d49156c1d3bd74738a11b34.svg",
+    "static/media/setting.svg": "/web-atlassys/static/media/setting.498913e24ec6329d48832a09c9ce9ca2.svg",
+    "static/media/pencil.svg": "/web-atlassys/static/media/pencil.62ee3ccd39e777f37c541ce07ddc1286.svg",
+    "static/media/menu.svg": "/web-atlassys/static/media/menu.c1a1d3c676e57e3498909b8a8d117e61.svg",
+    "static/media/dashboard.svg": "/web-atlassys/static/media/dashboard.763ca9e8f8ba36baeca82719028ae17d.svg",
+    "static/media/search.svg": "/web-atlassys/static/media/search.10a65c66a362761403d5a4bf4324feb3.svg",
+    "index.html": "/web-atlassys/index.html",
+    "main.68aae181.css.map": "/web-atlassys/static/css/main.68aae181.css.map",
+    "main.ea22f39f.js.map": "/web-atlassys/static/js/main.ea22f39f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68aae181.css",
+    "static/js/main.ea22f39f.js"
+  ]
+}
